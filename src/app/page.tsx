@@ -62,7 +62,7 @@ export default function Home() {
                 <div className="grid gap-4 grid-cols-2">
                     <div className="col-span-full">
                         <h1 className="text-center text-[2rem]/(--line-height-tight) font-bold font-(family-name:--font-primary) tracking-wider" style={{ color: "var(--color-primary)" }}>Creep'Mobilités</h1>
-                        <h2 className="text-center text-[1.5rem]/(--line-height-tight) font-bold font-(family-name:--font-primary) tracking-wide mb-5" style={{ color: "var(--color-primary-light)" }}>Une application RATP</h2>
+                        <h2 className="text-center text-[1.5rem]/(--line-height-tight) font-bold font-(family-name:--font-primary) tracking-wide mb-5" style={{ color: "var(--color-primary-light)" }}>Une application pour vous transporter</h2>
 
                         <div className="line-border" role="separator" />
 
