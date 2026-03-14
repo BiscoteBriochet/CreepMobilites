@@ -99,7 +99,7 @@ export default function Home() {
                         </div>
 
                          <Image
-                            src="/CreepMobilites-2_page-0001.webp"
+                            src="/PlanFerroviaire.png"
                             alt="Plan du réseau ferroviaire, présent et projets"
                             width={6000}
                             height={3375}
