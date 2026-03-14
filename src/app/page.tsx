@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useEffect, useState } from "react";
+import Image from 'next/image';
 import networkData from "@/app/lib/networkData";
 import { LegProp } from "@/app/lib/interfaces";
 import { ParentSize } from "@visx/responsive";
@@ -96,6 +97,14 @@ export default function Home() {
                                 {RoutingResult({ route })}
                             </div>
                         </div>
+
+                         <Image
+                            src="/CreepMobilites-2_page-0001.webp"
+                            alt="Plan du réseau ferroviaire, présent et projets"
+                            width={6000}
+                            height={3375}
+                            style={{ width: '100%', height: 'auto', marginTop: '2rem' }}
+                        />
 
                         <div className="line-border" role="separator" />
                     </div>
